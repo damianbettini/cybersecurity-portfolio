@@ -18,25 +18,15 @@
 
 Every writeup follows a structured, repeatable approach:
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│   🔍 Reconnaissance        Nmap, service enumeration, OSINT        │
-│          ↓                                                          │
-│   🌐 Enumeration           Web fuzzing, SMB, DNS, API discovery    │
-│          ↓                                                          │
-│   💥 Exploitation           Vulnerability analysis + initial access │
-│          ↓                                                          │
-│   ⬆️  Privilege Escalation  From user to root/admin                 │
-│          ↓                                                          │
-│   📖 Lessons Learned        Key takeaways from the machine         │
-│          ↓                                                          │
-│   🛡️ Defensive Guide        How to protect against these attacks    │
-│          ↓                                                          │
-│   📊 MITRE ATT&CK Map      Techniques mapped to the framework     │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
+| Phase | Description |
+|---|---|
+| 🔍 **Reconnaissance** | Nmap, service enumeration, OSINT |
+| 🌐 **Enumeration** | Web fuzzing, SMB, DNS, API discovery |
+| 💥 **Exploitation** | Vulnerability analysis + initial access |
+| ⬆️ **Privilege Escalation** | From user to root/admin |
+| 📖 **Lessons Learned** | Key takeaways from the machine |
+| 🛡️ **Defensive Guide** | How to protect against these attacks |
+| 📊 **MITRE ATT&CK Map** | Techniques mapped to the framework |
 
 ---
 
